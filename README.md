@@ -1,2 +1,2 @@
 # Products
-A Todo list with add and delete operation using local storage. 
+A product page with list of some products and using data set from dummyjson.com.
