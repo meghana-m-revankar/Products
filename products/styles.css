@@ -1,0 +1,76 @@
+* {
+    padding: 10px;
+    margin: 1px;
+}
+body {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pagetitle{
+    display: flex;
+    color: navy;
+    justify-content: center;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+
+.product {
+    
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    flex: 0 1 calc(25% - 20px); /* Set the flex basis to 25% with space between */
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px  black;
+}
+
+.product p{
+    font-size: 1.1rem;
+}
+
+
+.product img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.product h4::first-letter {
+    color: blue;
+    text-transform: uppercase;
+    font-size: larger;
+}
+#pagination {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#pagination button {
+  height: 35px;
+  width: 35px;
+  background-color:black;
+  border-radius: 50%;
+  display: inline-block;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#pagination button:hover {
+    background-color: skyblue;
+    color: black;
+}
